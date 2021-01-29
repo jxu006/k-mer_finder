@@ -10,12 +10,14 @@ kmer_finder was developped to read sequences from a raw FASTQ file and find out 
 Example:
     python kmer_finder.py -f rawReads.fastq -k 20 -o output.txt
 
-The input parameters are
+The command line parameters include:
+
     • -f: Raw sequence data in FASTQ format
     • -k: Length of the k-mer
     • -o: output file which includes a sorted list with k-mer sequences according to their frequency
 
 The output file includes 2 columns: 
+
     • 1st column: k-mer sequence
     • 2nd column: count of k-mer sequence
 
